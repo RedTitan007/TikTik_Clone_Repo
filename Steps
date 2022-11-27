@@ -146,3 +146,19 @@ if the width is full but still want to achive flex row responsive use flex-wrap 
 --> Change npm install to npm intsall --force in configure project
 --> After Deployment Click on Continue to Dashboard
 --> Settings -> Environmental Variables --> Add new Environmental Variables
+    * NEXT_PUBLIC_BASE_URL = https://tik-tik-clone-repo.vercel.app/
+--> Run Sanity Start
+--> Click manage project from profile in sanity
+--> Go to API Section -> Add https://tik-tik-clone-repo.vercel.app/ in CORS Origin
+--> Go to Console.cloud.google.com
+--> Click on DashBoard
+--> Select API and Services -> Credentials -> Click project on OAuth 2.0 Client IDs -> Add Url(https://tik-tik-clone-repo.vercel.app) in Authorised JavaScript origins and Authorised redirect URIs 
+--> Click Save
+
+
+
+
+
+
+
+
