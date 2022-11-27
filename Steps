@@ -127,3 +127,12 @@ if the width is full but still want to achive flex row responsive use flex-wrap 
 --> git commit -m "first commit"
 --> git remote add origin https://github.com/RedTitan007/TikTik_clone.git
 --> git push -u origin main
+            Or
+
+--> Create new Repo
+--> git init
+--> Open the current Project File in fork
+--> git commit -m "first commit"
+--> git remote add origin https://github.com/RedTitan007/TikTik_clone.git
+--> Fetch and Pull
+--> then push the changes forcefully after 
