@@ -136,3 +136,10 @@ if the width is full but still want to achive flex row responsive use flex-wrap 
 --> git remote add origin https://github.com/RedTitan007/TikTik_clone.git
 --> Fetch and Pull
 --> then push the changes forcefully after 
+
+************************************Deployment*******************************
+--> Goto https://vercel.com/
+--> Click Start Deploying
+--> Continue with github
+--> Install Selected Repo
+--> Add Environmental Variables
