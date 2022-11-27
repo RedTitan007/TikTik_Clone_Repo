@@ -1,0 +1,129 @@
+--> npx create-next-app@latest ./ --ts
+--> npm install -g @sanity/cli
+--> set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+--> sanity init --coupon javascriptmastery2022
+--> create .gitignore File
+--> npm run dev
+--> https://tailwindcss.com/docs/guides/nextjs
+--> rafce shortcut is not working install es7+react/redux
+--> http://localhost:3000/
+
+--> https://project-tiktik.vercel.app/
+-------------Sanity---------------
+--> cd .\sanity-backend\
+--> sanity start
+--> npm install --legacy-peer-deps
+---> npm i @react-oauth/google jwt-decode
+
+https://console.cloud.google.com/
+Api and services from sidebar
+
+Next.js Facilaitates File Based Routing
+
+-----------------------------------------------CSS OBSERVATION-------------------------------------------------------------
+Width auto
+
+The initial width of a block level element like div or p is auto. This makes it expand to occupy all available horizontal space within its containing block. If it has any horizontal padding or border, the widths of those do not add to the total width of the element.
+
+Width 100%
+
+On the other hand, if you specify width:100%, the element’s total width will be 100% of its containing block plus any horizontal margin, padding and border (unless you’ve used box-sizing:border-box, in which case only margins are added to the 100% to change how its total width is calculated). This may be what you want, but most likely it isn’t.
+
+https://www.impressivewebs.com/width-100-percent-css/#:~:text=It%20seems%20like%20this%20should,and%20your%20problem%20is%20solved.
+
+border-right-width,border-bottom-width:
+The border-right-width property sets the width of an element's right border.
+Works Something Like separator
+
+text-2xl:
+font-size and line-height
+
+gap:
+space between 2 elements between flex
+
+justify-center:
+Arrange elements to center Horizantally
+
+font-weight:
+font-weight should be given for the text to make Bold
+font-weight: 600;Semi Bold
+
+text-[#F51997]:
+will give
+{
+--tw-text-opacity: 1;
+color: rgb(245 25 151 / var(--tw-text-opacity));
+}
+
+rounded
+border-radius: 0.25rem;
+rounded-md - rounded medium 0.375rem
+
+Outline:
+An outline is a line drawn outside the element's border.
+The outline-offset property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.
+https://www.w3schools.com/css/css_outline_offset.asp
+
+To import the File Dynamically
+ctrl+space+windows
+
+xl:border-b-2:
+border bottom width
+
+border-gray-200:
+.xl\:border-gray-200 {
+--tw-border-opacity: 1;
+border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+pb-6 in case of rem pb-[600px] in case of pixel
+
+flex and flexwrap
+
+Convert first letter of word to UpperCase
+.capitalize {
+text-transform: capitalize;
+}
+
+To keep the Token Safe we are using Environmental Variable
+
+border-4:
+border-width
+.border-t-2 {
+    border-top-width: 2px;
+}
+
+Upload video Component Styles are important
+
+text styles:
+text-2xl text-center text-gray-300 text-white text-md
+
+Check About Postion absolute Styling in Upload it took postition relative as browser by default as parent
+
+overflow-hidden:
+To hide the Rest of the Contents by removing scroll thing
+
+
+margin:auto
+You can set the margin property to auto to horizontally center the element within its container.
+
+The element will then take up the specified width, and the remaining space will be split equally between the left and right margins.
+
+
+flex:1
+Let all the flexible items be the same length, regardless of its content:
+
+tracking-wider:
+Adds space between letters
+
+
+if the width is full but still want to achive flex row responsive use flex-wrap style refer [id].tsx file of Profile 
+
+
+*********************************GIT Steps***********************
+--> Create new Repo
+--> git init
+--> git add .
+--> git commit -m "first commit"
+--> git remote add origin https://github.com/RedTitan007/TikTik_clone.git
+--> git push -u origin main
