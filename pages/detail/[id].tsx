@@ -27,6 +27,14 @@ const Detail = ({ postDetails }: IProps) => {
     const [comment, setComment] = useState('');
     const [isPostingComment, setIsPostingComment] = useState(false);
 
+
+    
+    useEffect(() => {
+        if (post && videoRef?.current) {
+            videoRef.current.muted = isVideoMuted;
+        }
+    }, [post, isVideoMuted])
+    
     if (!post) return null;
 
     const onVideoClick = () => {
@@ -49,12 +57,6 @@ const Detail = ({ postDetails }: IProps) => {
             setIsVideoMuted(true);
         }
     }
-
-    useEffect(() => {
-        if (post && videoRef?.current) {
-            videoRef.current.muted = isVideoMuted;
-        }
-    }, [post, isVideoMuted])
 
     const handleLike = async (like: boolean) => {
         if (userProfile) {
