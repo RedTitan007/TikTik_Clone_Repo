@@ -143,3 +143,6 @@ if the width is full but still want to achive flex row responsive use flex-wrap 
 --> Continue with github
 --> Install Selected Repo
 --> Add Environmental Variables
+--> Change npm install to npm intsall --force in configure project
+--> After Deployment Click on Continue to Dashboard
+--> Settings -> Environmental Variables --> Add new Environmental Variables
